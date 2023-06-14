@@ -3,7 +3,7 @@ Bu projemizin amacı yaşadığım Yozgat ili Boğazlıyan ilçesi ile ilgili tu
 
 
 
-          ![350826094_1370723163718303_1531497623608448988_n](https://github.com/denizzhansahin/bogazliyan-mobil-app/assets/95483485/e02ee35f-d147-4fa2-833e-f4b3981fd692)
+![350826094_1370723163718303_1531497623608448988_n](https://github.com/denizzhansahin/bogazliyan-mobil-app/assets/95483485/e02ee35f-d147-4fa2-833e-f4b3981fd692)
 
 
 Projemiz için Mehmet Akınol'a teşekkür ederim :) LinkedIn : https://www.linkedin.com/in/mehmet-akinol-0725381a/
