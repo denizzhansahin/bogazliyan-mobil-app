@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bogazliyan.myapplication2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="33" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="com.bogazliyan.myapplication2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.bogazliyan.myapplication2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication2" >
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity56"
+            android:exported="false"
+            android:label="Nöbetçi Eczaneler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity55"
+            android:exported="false"
+            android:label="Geliştiriciler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity54"
+            android:exported="false"
+            android:label="Termal Turizm" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity53"
+            android:exported="false"
+            android:label="Sponsorlar" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity52"
+            android:exported="false"
+            android:label="Fotoğraflar" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity51"
+            android:exported="false"
+            android:label="Anketler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity50"
+            android:exported="false"
+            android:label="Kampanyalar" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity49"
+            android:exported="false"
+            android:label="Namaz Vakitleri" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity48"
+            android:exported="false"
+            android:label="Konaklama" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity47"
+            android:exported="false"
+            android:label="Borsa" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity46"
+            android:exported="false"
+            android:label="Haftanın İçerikleri" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity45"
+            android:exported="false"
+            android:label="Madımak" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity44"
+            android:exported="false"
+            android:label="Boğazlıyan Tavası" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity43"
+            android:exported="false"
+            android:label="Arabaşı" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity42"
+            android:exported="false"
+            android:label="Yeme - İçme" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity41"
+            android:exported="false"
+            android:label="Yöresel Kelimeler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity40"
+            android:exported="false"
+            android:label="Türküler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity39"
+            android:exported="false"
+            android:label="Maniler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity38"
+            android:exported="false"
+            android:label="Kaymakam Kemal Bey" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity37"
+            android:exported="false"
+            android:label="Kültürel" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity36"
+            android:exported="false"
+            android:label="Yukarı Mahalle Camii" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity35"
+            android:exported="false"
+            android:label="Akköprü" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity34"
+            android:exported="false"
+            android:label="Osmanlı Arması" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity33"
+            android:exported="false"
+            android:label="Karakoç Cami" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity32"
+            android:exported="false"
+            android:label="Çalapverdi Yukarı Cami" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity31"
+            android:exported="false"
+            android:label="Şehir Hamamı" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity30"
+            android:exported="false"
+            android:label="Çarşı Cami Eski Minaresi" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity29"
+            android:exported="false"
+            android:label="Hacı Ahmet Ağa Camii" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity28"
+            android:exported="false"
+            android:label="Yazıkışla Tapınağı" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity27"
+            android:exported="false"
+            android:label="Aşağıhasinli Yer Altı Şehri " />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity26"
+            android:exported="false"
+            android:label="Özler Höyükışla Yerleşkesi" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity25"
+            android:exported="false"
+            android:label="Özler Yer Altı Şehri" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity24"
+            android:exported="false"
+            android:label="Bahariye Kaplıcaları" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity23"
+            android:exported="false"
+            android:label="Gezilecek Yerler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity22"
+            android:exported="false"
+            android:label="Kamu Kurumları" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity21"
+            android:exported="false"
+            android:label="Haberler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity20"
+            android:exported="false"
+            android:label="Camiiiler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity19"
+            android:exported="false"
+            android:label="Hava Durumu" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity18"
+            android:exported="false"
+            android:label="İletişim" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity17"
+            android:exported="false"
+            android:label="Yardım" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity16"
+            android:exported="false"
+            android:label="Telefon Numaraları" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity15"
+            android:exported="false" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity14"
+            android:exported="false" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity13"
+            android:exported="false" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity12"
+            android:exported="false" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity10"
+            android:exported="false"
+            android:label="Beldeler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity9"
+            android:exported="false"
+            android:label="Köyler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity8"
+            android:exported="false"
+            android:label="Mahalleler" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity7"
+            android:exported="false"
+            android:label="Sanayi" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity6"
+            android:exported="false"
+            android:label="Hayvancılık" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity5"
+            android:exported="false"
+            android:label="Tarım" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity4"
+            android:exported="false"
+            android:label="Coğrafya" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity3"
+            android:exported="false"
+            android:label="Tarih" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity2"
+            android:exported="false"
+            android:label="Boğazlıyan Hakkında" />
+        <activity
+            android:name="com.bogazliyan.myapplication2.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor"
+            android:theme="@style/Theme.MyApplication2.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.bogazliyan.myapplication2.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
