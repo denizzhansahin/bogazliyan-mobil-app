@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity35">
+
+    <ScrollView
+        android:id="@+id/scrollView13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boğazlıyan'a 30 km, Yozgat'a 60 km mesafede buluna Aşağısarıkaya Köyü'nün aşağı kısmında Yozgat yolu kenarında yer almaktadır. Köprü Aşağısarıkaya Özü üzerinde kurulmuştur. Dere suyu ise çok az akmakta olup köprü adeta yüksek otlar ile örtülmüştür."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ne zaman yapıldığı ile ilgili herhangi bir bilgi mevcut değildir. Kemer kilit taşlarından yapılan köprü 17 m. uzunluğa sahip olup iki gözlü ve basık yuvarlak kemerlidir. Gözlerin kemer açıklığı ise 4 metre olup oldukça estetik bir görünüme sahiptir"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

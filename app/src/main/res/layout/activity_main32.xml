@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity32">
+
+    <ScrollView
+        android:id="@+id/scrollView19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gitmek için Tıklayınız" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 1785yılında yapılan cami kuzey-güney doğrultusunda dikdörtgen planlı yapının beden duvarları yığma taş üzeri sıvalıdır. Üst örtüsü köşeden köşeye atılan ve üç kademeli ahşap bingi tekniğinde, ahşap kaplamalı yapılmıştır. Tavandaki kareye yakın dikdörtgen kısmın ortasında ahşap oyma  bir göbek yer alır.  "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pencereleri taş betonarme ve dikdörtgen biçimli olup tek sıradır. Kadınlar mahfili ahşaptandır. Ortasında ahşaptan yarım daire bir çıkıntı vardır. Ahşap vaiz kürsüsü ve minberi bulunmaktadır. Duvara gömülü niş şeklindeki mihrap fayans kaplamadır. Son cemaat yeri ikisi serbest, ikisi duvarlara yaslı  dört sütun üzerine yuvarlak kemerli ve ahşap tavanlı olarak yapılmıştır. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ahşap tavanın ortasında yine ahşap oyma tavan dikkat çeker. Caminin tek şerefeli minaresinin 1978 yılında yapıldığı anlaşılmaktadır. Ayrıca zamanında minare görevi gören caminin kuzeydoğusunda dört ahşap sütünlu, merdivenli tepesinde bronz veya bakırdan alemi bulunan yapı ögesi dikkat çekmektedir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

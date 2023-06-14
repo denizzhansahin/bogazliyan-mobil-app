@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity40">
+
+    <ScrollView
+        android:id="@+id/scrollView24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türkülerimiz sıkıntılarımızı, sevinçlerimizi, hasretimizi ve paylaştığımız veya paylaşamadığımız her şeyi içine alan haykırışlarımızdır. Sadece düğünlerde, eğlencelerde, törenlerde veya özel günlerde raftan indirilen bir kitap gibi okunup hemen kaldıralım demediğimiz; hayatın akışı içinde yürürken, düşünürken, işteyken, evdeyken, keyiflenmişken dilimize ve yüreğimize işleyen o güzel türküler bizim öz malımızdır. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Başımda Tülbendim Yar "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Başımda tülbendim yar, \nAğladım gülmedim yar. \nKüstürdüm nazlı yari \n(De askerim yarim) \nSonunu bilmedim yar (da)"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dayanamıyom, \nBeni koymuş yar sevmiş (de) \nOna yanıyom. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Başımdaki tülbendi, \nBen dokudum dokudum. \nSevdanın mektebinde \n(De askerim yarim) \nYedi sene okudum (da) "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dayanamıyom. \nEllerinen zevke dalmış, \nOna yanıyom. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suya giderim suya, \nElmayı soya soya. \nKaldır yarim şapkanı \n(Da askerim yarim) \nGöreyim doya doya (da)"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şu Sılayı Gece Geçtim Görmedim"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şu sılayı gece geçtim görmedim amman. \nHop terelelli lelli lelli yar, \nFiş terelelli lelli lelli yar. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acı tatlı sular içtim ölmedim amman. Hop terelelli lelli lelli yar, Fiş terelelli lelli lelli yar."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şu sılayı gece geçtim görmedim amman. \nHop terelelli lelli lelli yar, \nFiş terelelli lelli lelli yar. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meterizden yağlı kurşun atarız amman. \nHop terelelli lelli lelli yar, \nFiş terelelli lelli lelli yar."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şu sılayı gece geçtim görmedim amman. \nHop terelelli lelli lelli yar, \nFiş terelelli lelli lelli yar. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keman olmuş sevdiğimin kaşları amman. \nHop terelelli lelli lelli yar, \nFiş terelelli lelli lelli yar."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lillari"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samanlık dolu saman, \nAman aman efendim aman. \nEller düğün ediyor, \nBizim düğün ne zaman. \nLillari lillari lillari... "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gidiyom ben de ben de, \nBir arzum kaldı sende. \nAyva gibi sarardım, \nDin iman yok mu sende \nLillari lillari lillari.... "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gidiyom elinizden, \nKurtulam dilinizden. \nYeşil baş ördek olsam, \nSu içmem gölünüzden. \nLillari lillari lillari..."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

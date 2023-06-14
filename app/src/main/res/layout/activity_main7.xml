@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dünyanın en modern teknolojisi ile donatılmış tesisi olan Boğazlıyan Şeker ve Mamulleri Entegresi Tesisi, 920 dekar alan ve 60.000 metrekare kapalı alan üzerinde, nominal kapasitesi 10.000 ton/gün, maksimum kapasitesi ise 12.000ton/gün olan bir tesistir. Tesiste yılda 1.200.000 ton pancar işlenmekte olup, 168.000 ton kristal şeker, 48.000 ton melas ve 384.000 ton yaş küspe üretilmektedir. "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boğazlıyan Şeker ve Mamulleri Entegre Tesisi en son teknoloji ile donatılmış olmasının yanında, Türkiye’nin ve kurulduğu yılda Avrupa’nın en modern şeker fabrikası olarak inşa edilmiştir. Ayrıca Türkiye de şeker sanayinde ilk defa kullanılacak olan yatay şeker silosu, iyon değiştiriciler ve sürekli pişirim aparatları, dünyanın en modern şeker tesisi olan Boğazlıyan Şeker ve Mamulleri Entegre Tesisi’nde mevcut bulunmaktadır. Boğazlıyan Şeker ve Mamulleri Entegre Tesisi pancar küspesi üretimi sonucunda ilçemizde pancar küsbesi paketleme tesisleri kurulmuştur. "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarım Kredi Kooperatifleri iştiraki olan Başak Yem ve Yozgat İl Özel İdaresi ortaklığıyla kurulan Başak Yem Gebe Düve ve Süt Üretim Çiftliği 14 Temmuz 2005 tarihinde hizmete açılmıştır. Boğazlıyan’a bağlı Devecipınar Köyü yakınlarında 10 bin dekarlık alanda kurulan 2500 büyükbaş hayvan kapasiteli damızlık gebe düve üretim çiftliği Türkiye için çok önemli bir çiftlik konumundadır."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bahariye köyünde yeni faaliyete geçen jeotermal sera ile yıllık 3.000 ton iyi tarım uygulamalarıyla domates üretimi yapılmaktadır.Sebzecilik konusu yeni bir alandır.Boğazlıyan toprak ve iklim yapısı itibari ile sebzeciliğe çok uygundur.Gece gündüz farkının fazla olması dolayısıyla bitkilerin meyvelerinde şeker depolamaları fazla olmakta ve bölgede yetişen ürünleri lezzetli kılmaktadır. Ayrıca iklimden dolayı bitki zararlısı fazla olmadığından, sınırlı sayıda kimyasal mücadele ile ürün üretilmektedir.Bu durum daha az kimyasal kalıntılı gıda üretimi manasına gelmektedir."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hakkinda_info_5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

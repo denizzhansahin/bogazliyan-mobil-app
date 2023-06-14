@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity33">
+
+    <ScrollView
+        android:id="@+id/scrollView20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gitmek için Tıklayınız" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Cami dikdörtgen planlı yığma kâgirdir. Son cemaat yerinin sonradan eklenmesiyle giriş doğudan sağlanmaktadır. Kemerli esas girişi kuzey yönündedir. Marul göbekli ahşap tavanı, dört ahşap kolon taşımaktadır. Kadınlar mahfili sonradan yapılmıştır. Alçı sıvalı sade mihrabı ve ahşap minberi orjinaldir. Orijinali toprak dam olan çatısı sonradan kırma çatıya dönüştürülmüştür. yaklaşık 200 yıllık olan cami büyük oranda onarım görmüştür.Minaresi yenidir. İçerisindeki ahşap işçiliği ile dikkat çekmektedir."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

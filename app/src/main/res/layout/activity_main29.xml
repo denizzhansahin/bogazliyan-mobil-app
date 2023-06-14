@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity29">
+
+    <ScrollView
+        android:id="@+id/scrollView12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gitmek için Tıklayınız" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boğazlıyan ilçe merkezinde bulunan Hacı Ahmet Ağa Cami 1707 yılında yapılmıştır. Cami bir kaç kez onarımdan geçmiş olup, hem cami yapısında hem de minaresinde değişikliklere uğrayarak, bugünkü halini almıştır. İlk yapıldığında tek şerefeli olan minare bugün  iki şerefelidir. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minarenin birinci şerefeye kadar olan bölümünde dama şeklinde dizilmiş renkli taş dikkat çekiyor. Dikdörtgen planlı, beşik çatılı 11 pencere ile aydınlatılan camide minaredeki damalı süslemeden başka süsleme bulunmuyor. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Caminin iç tavan kısmı üç bölümlü olarak yarım silindirik şekilde ahşaptan yapılmıştır. Ana tavan kısmı taşıyıcı elamanları dört adet ahşap sütundur."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

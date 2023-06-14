@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity54">
+
+    <ScrollView
+        android:id="@+id/scrollView30"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizmi Teşvik Kanunu uyarınca ilan edilmiş olan 70 adet termal turizm merkezinden biri olan Bahariye Kaplıcaları, Bahariye köyü sınırlarında bulunmaktadır. Cavlak Kaplıcaları olarak isimlendirilen kaplıcalar, tedavi özellikleri ve niteliği bakımından dünyanın en iyi kaplıcalarından biri olup insanlığa şifa dağıtmaya devam etmektedir. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Eylül 1991 tarih ve 20997 sayılı Resmi Gazete ile Yozgat/Boğazlıyan/Bahariye (Cavlak) Termal Turizm Merkezi ilan edilmiş 30/06/2007 tarih ve 26568 sayılı Resmi Gazete ile sınırları genişletilmiştir. Toplam 7487 dekar alan bu kararla turizm merkezi olarak yatırımcılara açılmıştır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView269"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView270"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizm Sektörüne Yönelik  Teşvik Ve Destekler"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView271"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I.	KOSGEB Kapsamında Sağlanan Destek ve Hizmetler, II.	Yatırımlarda Devlet Yardımları Hakkında Bakanlar Kurulu Kararı Kapsamında Uygulanan Teşvik ve Destekler, III.	2634 Sayılı Turizmi Teşvik Kanunu ile Sağlanan Teşvikler, IV.	1319 Sayılı Emlak Vergisi Kanunu’nda Yer Alan Muafiyetler, V.	Türkiye İhracat Kredi Bankası (EXIMBANK) Tarafından Sağlanan Kredi İmkanları, VI.	Yabancı Sermaye Yatırımlarının Teşviki, VII.	Yurtdışı Turizm Fuarlarına Katılım Desteği, VIII.	 Taşınmaz Edinme Usulleri ve Teşvik."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView272"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView273"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I.	Kosgeb Kapsamında Teşvik Ve Destekler"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView274"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•Oteller ve moteller, \n•Kamp yerleri ve diğer kısa süreli konaklama yerleri, \n•Gençlik hostelleri ve dağ barınakları, \n•Kamp yerleri (karavan alanları dahil), \n•Başka yerde sınıflandırılmamış diğer konaklama yerleri, \n•Lokantalar, pastaneler vb yerler, \n•Seyahat acenteleri ve tur işletmelerinin faaliyetleri,  \n•Başka yerde sınıflandırılmamış, turistlere yardımcı faaliyetler  destek kapsamında alınmıştır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView275"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView276"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KOSGEB Kapsamındaki İşletmeler"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView277"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mikro İşletme: On kişiden az yıllık çalışan istihdam eden ve yıllık net satış hasılatı ya da mali bilançosu bir milyon Türk Lirasını aşmayan çok küçük ölçekli işletmeler,"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView278"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Küçük İşletme: Elli kişiden az yıllık çalışan istihdam eden ve yıllık net satış hasılatı ya da mali bilançosu beş milyon Türk Lirasını aşmayan işletmeler,"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView279"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orta Büyüklükteki İşletme: İki yüzelli kişiden az yıllık çalışan istihdam eden ve yıllık net satış hasılatı ya da mali bilançosu yirmibeş milyon Türk Lirasını aşmayan işletmeler. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView280"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView281"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KOSGEB Destekleri "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView282"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) KOBİ Proje Destek Programı \n2) Tematik Proje Destek Programı \n3) İşbirliği Güçbirliği Destek Programı \n4) AR-GE, İnovasyon ve Endüstriyel Uygulama Destek Programı \n5)Genel Destek Programı \n6) Girişimcilik Proje Destek Programı \n7) Gelişen İşletmeler Piyasası KOBİ Destek Programı \n8)Kredi Faiz Destekleri \n9)Diğer Destekler Kamu ve özel bankaların “turizm destek paketi” ve benzeri isimler altında çeşitli finansman destekleri bulunmaktadır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView283"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView284"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II.	Yatırımlarda Devlet Yardımları           Hakkında Bakanlar Kurulu Kararı Kapsamında Sağlanan Teşvikler"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView285"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yozgat 5.bölgede yer almakta olup “Kültür ve Turizm Koruma ve Gelişim Bölgeleri”nde yapılacak turizm yatırımlarından bölgesel desteklerden yararlanabilecek nitelikteki turizm konaklama yatırımları  Öncelikli yatırım konuları arasında sayılmıştır.  Başlıca yatırım konuları ve asgari şartları şunlardır:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView286"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temel başlıklarıyla aşağıdaki teşvikler uygulanmaktadır: \na) Gümrük vergisi muafiyeti. \nb) KDV istisnası. \nc) Vergi indirimi. \nç) Sigorta primi işveren hissesi desteği. \nd) Yatırım yeri tahsisi. \ne) Faiz desteği. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView287"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4706 sayılı Kanunun ek 3’üncü maddesi çerçevesinde Maliye Bakanlığınca belirlenen usul ve esaslara göre yatırım yeri tahsis edilebilir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView288"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teşviklerden yararlanmak isteyenler Ekonomi Bakanlığına müracaat edebilir. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView289"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView290"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="III.	2634 Sayılı Turizmi Teşvik Kanunu ile Sağlanan Teşvikler"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2634 sayılı Turizmi Teşvik Kanunun 13’üncü maddesi hükümlerine istinaden turizm sektöründe faaliyet gösteren işletmelere teşvik ve destek sağlanmaktadır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView292"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView293"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taşınmaz Malların Turizm Amaçlı Kullanımı Amacıyla Yapılan Tahsisler"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView294"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizmi Teşvik Kanunu’nun 8 inci maddesine göre, hazine ve orman arazilerinin kanunda belirtilen sürelerde turistik tesis yatırımlarına tahsisi sağlanmaktadır. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView295"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView296"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orman Fonuna Katkının Taksitlendirilmesi"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView297"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizmi Teşvik Kanunu’nun 15’inci maddesi uyarınca, ormanlarda yer alacak turizm yatırımı belgeli tesislerin, 6831 sayılı Orman Kanununun Ek-3’üncü maddesinin (c) fıkrası uyarınca “ödemek zorunda oldukları bedel, tahsis tarihini takip eden üçüncü yıldan itibaren, beş yıl vade ve beş eşit taksitte alınır.” Hükmü gereğince ödeme yapılabilmektedir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView298"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView299"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektrik, Havagazı ve Su Ücretleri"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizmi Teşvik Kanunu’nun 16 ncı maddesinde geçen “Turizm belgeli yatırım ve işletmeler elektrik, gaz ve su ücretlerini o bölgedeki sanayi ve meskenlere uygulanan tarifelerden en düşüğü üzerinden öderler.” hükme istinaden, işletmelere elektrik enerjisi desteği sağlanmaktadır. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView302"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haberleşme Kolaylıkları"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView303"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizmi Teşvik Kanunu’nun 17’nci maddesindeki “Belgeli yatırım ve işletmelerin telefon ve teleks taleplerine ilişkin her türlü işlem ve tahsis öncelikle yapılır.” hükmüne göre işletmelere haberleşme kolaylığı sağlanmaktadır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView304"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yabancı Personel ve Sanatkar Çalıştırılması"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView306"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizmi Teşvik Kanunu’nun 18’inci maddesine göre, “Belgeli işletmelerde, Bakanlık ve İçişleri Bakanlığının görüşü alınarak Çalışma ve Sosyal Güvenlik Bakanlığınca verilen izinle yabancı uzman personel ve sanatkârlar çalıştırılabilir...” hükmüne dayanarak yabancı personel ve sanatkar istihdam eden işletmelere destek sağlanmaktadır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView307"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView308"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IV.	Emlak Vergisi Muafiyeti"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView309"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizm İşletmeleri 1319 sayılı Emlak Vergisi Kanunu’nun “Geçici Muaflıklar” başlıklı 5’inci maddesinin (b) fıkrasında “ Turizm Endüstrisini Teşvik Kanunu hükümleri dairesinde turizm müessesesi belgesi almış olan “Gelir veya Kurumlar Vergisi “ mükelleflerinin adı geçen kanunda yazılı maksatlara tahsis ettikleri ve işletmelerine dahil binaları, inşalarının sona erdiği veya mevcut binaların bu maksada tahsisi halinde turizm müessesesi belgesinin alındığı yılı takip eden bütçe yılından itibaren 5 yıl süre ile geçici muafiyetten faydalandırılır.” hükümlerine göre işletmeler “Emlak Vergisi”nden muaf tutulmaktadır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView310"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exımbank Kredi İmkanları"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView313"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizm Kredisi ve Yararlanabilecek Olanlar"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView312"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Türk Eximbank, çalışmalarını çeşitlendirerek sürdürmek amacıyla “Turizm Kredisi” programını uygulamaya koymuştur. Kredi TL ve döviz cinsinden kullandırılmaktadır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView314"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Söz konusu kredi uygulaması ile; Turizm İşletmeleri, yurt dışından getirilen turistlere yurti çinde verilen her türlü konaklama, yeme - içme ulaşım, yurtdışı tanıtım ve pazarlama vb. hizmetleri karşılığında kredi imkanından yararlanabilmektedirler. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView316"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView315"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Firma Limiti ve Kredinin Vadesi"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView317"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizm TL/Döviz kredilerinin anapara bakiyeleri toplamı 25 Milyon ABDDolarını aşamaz.Kredi vadesi azami 360 gündür. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView318"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView319"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ne Tür Teminatlar Kabul Edilmektedir?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView320"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•Kredinin anapara, faiz ve taahhüt riski toplamının % 100'ü oranında aşağıda dökümü verilen asli teminatlar tesis edilir. \n•Banka teminat mektubu, \n•Devlet İç ve Dış Borçlanma Senetleri, \n•Kredi vadesiyle uyumlu ve kredinin kullandırılacağı para cinsinden düzenlenen Kredi Geri Ödeme Kefalet Sözleşmesi ile tesis edilen KGF kefaleti."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView321"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView322"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VI.	Yabancı Sermaye Yatırımlarının      Teşviki"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4875 sayılı Doğrudan Yabancı Yatırımlar Kanunu’nun 3’ üncü maddesi uyarınca “Uluslararası anlaşmalar ve özel kanun hükümleri tarafından aksi öngörülmedikçe Yabancı yatırımcılar tarafından Türkiye'de doğrudan yabancı yatırım yapılması serbesttir…” konuya ilişkin sağlanan teşviklerle ilgili uygulama Ekonomi Bakanlığı Yabancı Sermaye Genel Müdürlüğü tarafından yapılmaktadır. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView324"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView325"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VII.	Yurtdışı Turizm Fuarlarına Katılım Desteği "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView326"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kültür ve Turizm Bakanlığı tarafından desteklenen veya iştirak edilen turizm fuarlarına bireysel veya ilgili sektör meslek birliğinin/derneğinin öncülüğünde, grup olarak bölge tanıtımı yapacak işletmelerin, katılım masraflarının, yurt dışında gerçekleştirecekleri tanıtım ve pazarlama faaliyetleri kapsamında özel proje giderlerinin, Yurt Dışı Turizm Fuarlarına Katılımın Ve Turizm Tanıtma Ve Pazarlama Faaliyetlerinin Desteklenmesine İlişkin 2010/9 sayılı tebliğ kapsamında tespit edilen esaslar ve oranlar çerçevesinde Tanıtma Genel Müdürlüğü bütçesinin ilgili tertiplerindeki ödeneklerle sınırlı olmak kaydıyla ödenmesi olarak belirlenmiştir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView327"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tebliğde yer alan hususlardan Kültür ve Turizm Bakanlığından belgeli, asli fonksiyonu konaklama olan ve bir önceki mali yıl içerisinde bireysel olarak 1.000.000 (bir milyon) ABD Doları ve muadili dövizi yurtdışından sağlayan işletmeler yararlanabilmektedir. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView328"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView329"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  VIII.	Taşınmaz Edinme Usulleri ve  Teşvik"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView330"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hazineye ait taşınmazlar için taşınmazın bulunduğu yerdeki Maliye Teşkilatına (Defterdarlık, Malmüdürlüğü veya Milli Emlak Müdürlüğü) müracaat edilerek satış, irtifak işlemlerine başlanılabilir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView331"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diğer kamu idarelerine ait taşınmazlar için ise taşınmaz maliki olan ilgili idareye başvurulur ve özel düzenlemeler dışında satış ve irtifak işlemleri genel hükümlere göre (2886 sayılı Devlet İhale Kanunu ve 4721 Sayılı Türk Medeni Kanunu, Kamu Taşınmazlarının Yatırımlara Tahsisine İlişkin Usul ve Esaslar, 2634 Sayılı Turizmi Teşvik Kanunu vb) yapılır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView332"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Satış"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView334"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hazine Taşınmazlarının İdaresi Hakkında Yönetmeliğin 59 uncu maddesine göre özel mevzuatı gereğince satışı mümkün olmayan taşınmazlar ile satışı izne tabi olup ilgili kamu idaresince satışına izin verilmeyen taşınmazlar ile Milli Emlâk Genel Tebliğlerinde satışında kısıtlama bulunan taşınmazlarda satılamaz. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView335"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Satış bedelinin peşin ödenmesi esas olmakla birlikte, satış bedeli Milli Emlak Genel Tebliğleri ile belirlenen tutarın üzerinde olan taşınmaz bedellerinin teminat veya ipotekli devir karşılığında taksitle ödenmesi de mümkündür. Taksitle ödeme halinde, satış bedelinin en az dörtte biri peşin, kalanı en fazla iki yılda ve taksitlerle kanunî faizi ile birlikte ödenir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView336"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView337"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İrtifak"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView339"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2886 Sayılı Devlet İhale Kanunu ve Hazine Taşınmazlarının İdaresi Hakkında Yönetmelik Hükümleri Uyarınca Kıyılarda Gerçekleştirilecek Olan Yatırımlar Hariç Diğer Amaçlı Yatırımlar İçin Tesis Edilecek İrtifak Hakkı İşlemleri "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView338"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taşınmazın hukuki ve fiili durumu açısından talep edilen amaçta değerlendirilmek üzere yatırımcılara üst hakkı tesis edilmesinde herhangi bir sakınca bulunmadığının anlaşılması üzerine, taşınmazın emlak vergisine esas asgari metrekare birim değerinin yüzde birinden az olmamak üzere tespit edilen rayiç bedel üzerinden Devlet İhale Kanununun 51 inci maddesinin (g) bendine göre pazarlık usulüyle irtifak hakkı ihalesi yapılabilir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView340"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ancak, gerekli görülmesi halinde, öncelikle taşınmazın tescil, ifraz, tevhit, terk ve benzeri işlemlerin yapılması veya imar planının yaptırılması, değiştirilmesi ya da uygulama projelerinin hazırlanması ve onaylatılması, ilgili kurum ve kuruluşların da uygun görüşlerinin/izinlerinin alınması gibi işlemlerin yerine getirilebilmesi için üzerinde ihale kalan yatırımcıya yapılan irtifak hakkı ihalesinde kararlaştırılan bedelin % 20 si oranındaki bedel karşılığında her defasında 1 (bir) yıl olmak üzere ve toplamda en çok 4 yıla kadar ön izin verilebilmektedir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView341"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapılan irtifak hakkı ihalesi sonucunda üzerinde ihale kalan yatırımcılara veya gerekli görülerek adlarına ön izin verilen yatırımcılar tarafından bu ön izin dönemi içerisinde yükümlülüklerin yerine getirilmiş olması halinde, 4721 sayılı Türk Medeni Kanununun 826 vd. maddeleri uyarınca 49 yıl süreli müstakil ve daimi nitelikte üst hakkı dahil kullanma izni verilmekte veya irtifak hakkı tesis edilmektedir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView342"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maliye Bakanlığınca verilen kullanma izinlerinde veya irtifak haklarında ilk yıl ihale bedeline, ikinci ve üçüncü yıllar için ise sözleşmesine göre tespit edilecek bedele yüzde yetmiş oranında indirim uygulanmak suretiyle hesaplanarak tahsil edilmektedir. Ayrıca buna ilave olarak, bitkisel üretimle sınırlı olmak kaydıyla üzerinde tarım veya organize hayvancılık yapılmak üzere adına kullanma izni verilen veya irtifak hakkı tesis edilen yatırımcılardan, sonraki yıllar için ise sözleşmesine göre tespit edilecek bedele yüzde elli oranında indirim uygulanarak tahsil edilmektedir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView343"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kullanma izni verilen veya irtifak hakkı tesis edilen Hazine taşınmazı üzerinde yapılacak tesisin bizzat hak lehtarınca işletilmesi hâlinde, bu tesisin işletilmesinden elde edilen toplam yıllık hasılatın yüzde biri oranında pay alınmaktadır. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView344"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2634 Sayılı Turizmi Teşvik Kanunu Uyarınca Kültür ve Turizm Bakanlığınca Adlarına Kesin Tahsis Yapılan Yatırımcılar Lehine Tesis Edilen İrtifak Hakları"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView347"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kültür ve Turizm Bakanlığınca, kültür ve turizm koruma ve gelişim bölgeleri ile turizm merkezleri içinde ve dışında, imar planları ile turizme ayrılmış yerlerde bulunan ve anılan Bakanlığın tasarrufuna alınmış olan kamu arazilerinden girişimcilere tahsisi uygun görülenlerin yeri, imar durumu, özellikleri, altyapı durumu, krokileri, yatırımın tamamlanma süresi ve tahsis için son başvuru tarihi de belirtilerek Kültür ve Turizm Bakanlığınca yapılacak ilan ile girişimcilere duyurulur."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView348"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu Yönetmelik kapsamındaki kamuya ait taşınmazlarla       ilgili turizm amaçlı plan ve proje geliştirilmesi ile diğer işlemlerin tamamlanmasına imkân tanınması amacıyla girişimci adına kesin tahsis aşamasına kadar Kültür ve Turizm Bakanlığınca ön izin verilir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView349"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özel mülkiyete veya tahsisli yatırımlara, Kamu Taşınmazlarının Turizm Yatırımlarına Tahsisi Hakkında Yönetmelik’in 9’uncu maddesindeki duyuru şartı aranmaksızın, tahsise ilişkin diğer hususların da sağlanması ve hisseli parsel teşekkül ettirilmemek şartı ile ek alan olarak tahsis edilebilir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView350"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ön izin yükümlülüklerini yerine getirerek turizm yatırımı belgesi veya ana turizm yatırımı belgesi alan girişimci adına Kültür ve Turizm Bakanlığı Arazi Tahsis Komisyon kararı ile kesin tahsis yapılır ve kesin tahsis koşulları Maliye Bakanlığına bildirilir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView351"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kültür ve Turizm Bakanlığı tarafından, hazinenin özel mülkiyetindeki taşınmazlar ile ormanlık alanlar üzerinde turizm yatırımı yapılmak amacıyla adlarına kesin tahsis yapılan turizm yatırımcıları lehine, bu hazine taşınmazları üzerinde, anılan Bakanlık tarafından ve Yönetmelik hükümlerine göre belirlenen bedel karşılığında ve ihale yapılmadan, 4721 sayılı Türk Medeni Kanunu hükümleri uyarınca 49 yıl süreli bağımsız ve sürekli nitelikli üst hakkı dahil irtifak hakkı tesis edilir. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView352"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView353"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 4706 Sayılı Hazineye Ait Taşınmaz Malların Değerlen dirilmesi Ve Katma Değer Vergisi Kanununda Değişiklik Yapılması Hakkında Kanunun Ek 3 Maddesi Uyarınca Yayımlanan Kamu Taşınmazlarının Yatırımlara Tahsisine İlişkin Usul Ve Esaslar Kapsamındaki İşlemler."
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView354"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14/7/2009 tarihli ve 2009/15199 sayılı Bakanlar Kurulu Kararıyla gruplandırılan illerde ve teşvik edilen sektörlerde yatırım yapacak yatırım teşvik belgesi sahibi gerçek ve tüzel kişilere ilk yıl için taşınmazın emlak vergi değerinin yüzde üçü oranında takdir edilecek bedel karşılığında mülkiyeti Hazineye, özel bütçeli idarelere, il özel idarelerine ve belediyelere ait taşınmazlar ile devletin hüküm ve tasarrufu altındaki yerler üzerinde, irtifak hakkı tesis edilmesi veya kullanma izni verilmesi mümkündür."
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
