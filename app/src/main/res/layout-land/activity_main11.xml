@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11">
+
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/haakinda_info_1" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yol Haritasi için Tıklayın" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konum: Ovakent kasabası, Yozgat il merkezine yaklaşık 36 kilometre uzaklıkta bulunmaktadır. Boğazlıyan ilçe merkezine ise yaklaşık 23 kilometre mesafededir."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nüfus: 2021 yılı itibarıyla Ovakent'in nüfusu yaklaşık 1.500 civarındadır. Kasaba, genellikle tarım ve hayvancılık faaliyetlerine dayalı bir ekonomiye sahiptir."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ekonomi: Ovakent kasabasının ekonomisi tarım ve hayvancılığa dayanmaktadır. Buğday, arpa, şeker pancarı, patates ve sebzeler gibi tarımsal ürünler yetiştirilmektedir. Ayrıca hayvancılık da önemli bir geçim kaynağıdır."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarihi ve Kültürel Miras: Ovakent, tarihi ve kültürel mirasa sahip bazı yapıları içermektedir. Kasabada yer alan tarihi camiler, köprüler ve konaklar bölgenin kültürel zenginliğini yansıtmaktadır."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizm: Ovakent, doğal güzellikleri ve kırsal yaşamıyla turizm potansiyeline sahiptir. Ziyaretçiler, kasabanın doğal ortamında yürüyüş yapabilir, çevredeki tarım alanlarını gezebilir ve bölgenin yerel kültürünü deneyimleyebilir."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

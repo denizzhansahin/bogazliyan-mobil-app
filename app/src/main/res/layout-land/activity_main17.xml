@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity17">
+
+    <ScrollView
+        android:id="@+id/scrollView32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Uygulama Hakkında"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Boğazlıyan Mobil APP, açık kaynak kod yapısı ile kullanıcılarına hizmet veren ücretsiz bir turizm ve günlük kullanım uygulamasıdır."
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mobil uygulama ile Boğazlıyan ile ilgili bilgiler öğrenebilir; ilgili kurumların telefon numaralarına erişebilir; belde, köy ve mahallelere kolayca gitmk için harita özelliğini kullanabilir; hava durumu ve haberler ile bilgi alabilir; konaklama, yeme-içme ve kültürel içeriklere erişebilir; en yakın camileri öğrenebilir ve harita bilgisi alabilirsiniz."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Uygulama Hedefi"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Boğazlıyan Mobil - Dijital İnternet Platformu, açık kaynak yazılım (open sourfce software) olarak geliştirilmekte olan bir projedir. Uygulamanın kullanımı ücretsiz olmak ile birlikte üyelik gerekmeden kullanılabilmektedir. Boğazlıyan için turizm, kültürel, bilgilendirme ve günlük kullanım gibi amaçlar doğrultusunda hazırlanmıştır. Boğazlıyan Mobil’in hedefi; kullanıcılarının en güncel içeriklere erişmesi, bilgilenmesi ve hizmet verdiği hizmetler ile kullanıcılarının günlük hayatlarını kolaylaştırmak için hazırlanmıştır. Kullanıcılar medya, borsa, harita, anket, kampanya ve daha fazlasına kolayca ulaşabilmesi amaçlanmıştır."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Uygulama İzinleri"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Boğazlıyan Mobil uygulamasını kullanabilmek için işletim sisteminize ait olan internet, konum, telefon etme, diğer uygulamaları açma vb. Işlemler için gerekli izinleri vermiş olmalısınız."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView367"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Telif Hakları ve Sorumluluk"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView366"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Uygulama içindeki yazılım, görsel, yazılı ve diğer bilgiler için izin alınmaksızın kullanılması yasaktır. Uygulama içinde yer alan ve diğer hizmet sağlayıcıların(Google vb.) sağlaığı içerikler üzerindeki hak ve sorumlulukları için ilgili sağlayacıların bilgilendirme sayfalarına bakınız"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView365"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bilgilerin Güncelliği ve Kullanıcı Sorumlulukları"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView363"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Uygulama içinde yer alan bilgilerin güncelliği, teyit durumu ve diğer her türlü bilgi kesin olmamakla birlikte her türlü işlem sadece bilgilendirme amaçlıdır. Kullanıcı bundan dolayı yapacağı her türlü işlem ilgili sadece kendisi sorumludur."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView364"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Veri Toplama ve Kullanıcı Bilgileri İşleme"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Boğazlıyan Mobil kişisel olarak bilgilerinize erişim sağlamaz ve kullanıcısı hakkında izinsiz veri toplama ve işleme yasal olarak mümkün değildir."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView361"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kullanıcı, Boğazlıyan Mobil tarafından sağlanan internet sayfası hizmeti için anonim olarak konum, cihaz türü vb. bilgilerini Google Sites ve Google Analytics ile toplandığını kabul etmektedir."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView362"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ayrıca uygulama içinde kullanılan iletişim formu ile ilgili olarak eğer kullanıcı geliştiriciler ile iletişim kurmuş ise kullanıcının bilgilerini ilgili kullanıcı hizmet/şikayet/öneri vb. durumlar çözüme kavuştuğu zaman silinmektedir."
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView371"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ayrıca Google ve diğer hizmet sağlayıcıların hizmetleri bu uygulama içinde yer aldığı için bu hizmet sağlayıcıların kendi hizmetleri ile ilgili veri toplama ve veri işleme hak ve sorumlulukları, Boğazlıyan Mobil geliştiricilerinin sorumluluğunda değildir. Boğazlıyan Mobil geliştiricileri sadece daha iyi hizmet verebilmek için ilgili hizmet sağlayacıların ürünlerini kullanmaktadır."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView369"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Uygulama için Hizmetleri Kullanılan Hizmet Sağlayıcıları"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView370"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hizmet sağlayıcıların bilgileri ilgili uygulama içi hizmette yer almaktadır."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

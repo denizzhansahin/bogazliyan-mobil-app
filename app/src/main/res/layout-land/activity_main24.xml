@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity24">
+
+    <ScrollView
+        android:id="@+id/scrollView10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gitmek için Tıklayınız" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaplıca alanı ilçemize 4 km mesafededir. 30-60 derece sıcaklıkta ve 320 lt debide su 3 jeotermal kuyu ile yeryüzüne çıkarılmaktadır.Biokarbonatlı, klorürlü, sülfatlı sular grubundandır."
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2001 yılında Kültür ve Turizm Bakanlığı tarafından Bahariye Termal Turizm Merkezi ilan edilmiştir. 2008 ve 2011 yıllarında Turizm arsa tahsisine çıkılmıştır."
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turizm merkezi alanında 3 tesis yer almaktadır."
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İlki Yozgat İl Özel İdaresine ait Açık yüzme havuzudur. Genellikle yöre halkının kullandığı havuzda en son 2009 yılında bakım ve onarım çalışmaları yapılmıştır. Son iki yıldır işletilmemektedir."
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diğer iki tesis ise müteşebbisler tarafından yapılmıştır. Biri halen yatırımlarını tamamlayamamış , diğer ise 50 oda kapasiteli Apart termal tesis olarak hizmet vermektedir."
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jeotermal kaynaklı suyun sağlık ve turizm sektöründe ve ayrıca tarım sektöründe kullanılması ile ilgili çalışmalar devam etmektedir."
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity38">
+
+    <ScrollView
+        android:id="@+id/scrollView22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kemal Bey, 1909 yılında Cezair-i Bahri Sefid (12 Adalar Valiliği) maiyet memurluğunda stajını bitirip kaymakam olmuştur. Bununla birlikte bir yıl Rodos İdadisinde Türkçe ve Sosyal Bilimler öğretmenliği yaptı. 18 Aralık 1911’de asıl mesleğine dönerek sırasıyla Doyran, 1912’de Gebze, 1913’de Karamürsel, 1915’de Boğazlıyan Kaymakamı olmuştur. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kemal Bey, 20.08.1915/ 09.10.1915 tarihleri arasında Yozgat Sancağı Mutasarrıfı Vekilliğinde bulundu. Nisan 1916 da Batraski –Şam Kazası Kaymakamlığına, 26.10.1916 İzmit Sancağı Muhacirin Müdürlüğüne atanmıştır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1915 yılında çıkarılan Tehcir Kanunu ile Boğazlıyan’a ilk sevk emri 18 Temmuz 1915’te gelmiş, 21 Temmuz 1915 tarihinde ilçede yaşayan Ermenilerin bir kısmı Suriye’ye göç ettirilmiştir. Bu emir o sırada Boğazlıyan Kaymakamı ve Yozgat Mutasarrıf Vekili Mehmet Kemal Bey tarafından yerine getirilmiştir. Nakiller esnasında kolluk kuvvetlerinin tedbirlerine rağmen, iklim şartlarının olumsuzlukları, eşkıya saldırıları, hastalıklar ve Ermenilerce katledilenlerin yakınlarının intikam almak için yapmış olduğu ferdi olaylar olmuştur."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bölgeden sevk edilen Ermenilerin yaşadıkları olaylarla ilgili olarak suistimalleri ortaya çıkan yetkililer, bizzat Kaymakam Mehmet Kemal Bey tarafından mahkemeye sevk edilmiştir. Ancak Kemal Beyin ihmali  olduğu da düşünülerek 5 Şubat 1919’da Harp Divanı’nda yargılanmasına başlanmıştır. 7 Nisan 1919’da sona eren yargılamada mahkeme heyeti değişikliğe uğramış ve 18 duruşma gerçekleşmiştir. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mahkeme heyeti 8 Nisan 1919’da Yozgat ve Boğazlıyan Ermenilerinin tehciri sırasında suistimal, öldürme olaylarında gevşek davrandığı gerekçesini ileri sürerek Kemal Bey’i idama mahkum edilmiştir."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10 Nisan 1919 ‘da İstanbul Bayezid Meydan’ında idam edilen Kemal Bey’in cenazesi 11 Nisan günü Türk bayrağına sarılı olarak halkın katıldığı bir törenle Kadıköy’deki Kuşdili Çayırı’nda bulunan kabristana defnedildi."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beyazıt Meydanı’nda idam sehpasına çıkarılırken son sözü sorulduğunda; halka dönerek: "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Sevgili Vatandaşlarım,  Ben bir Türk memuruyum. Aldığım emri yerine getirdim. Vazifemi yaptığıma vicdanım emindir. Sizlere yemin ederim ki, ben masumum. Son sözüm bugün de budur, yarın da budur. Ecnebi devletlere yaranmak için beni asıyorlar. Eğer adalet buna diyorlarsa, kahrolsun adalet!” demiştir. Bunun üzerine halk “Kahrolsun böyle adalet!” diye bağırmaya başlamıştır. Kemal Bey sözlerine devam eti."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Benim Sevgili Kardeşlerim,  Asil Türk milletine çocuklarımı emanet ediyorum. Bu kahraman millet, elbette onlara bakacaktır. Allah, vatan ve milletimize zeval vermesin. Amin! Borcum var, servetim yok üç çocuğumu, millet uğruna yetim bırakıyorum. Yaşasın Millet!.” demiştir.   Kemal Bey’in idamı İngilizlerin hiç beklemediği şekilde büyük tepki ile karşılanmış, Kadıköy’de büyük bir cenaze töreni yapılmıştır. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TBMM 14 Ekim 1922’de çıkardığı özel bir kanunla “Milli Şehit” olarak kabul etmiş ve Boğazlıyan’da bir mahalle ile iki okula “Kaymakam Kemal Bey” adı verilmiştir. Ayrıca her yıl ölüm tarihinde, anıtı dikilen Boğazlıyan’da anma günleri yapılmaktadır.  "
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

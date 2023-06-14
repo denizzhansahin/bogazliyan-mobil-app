@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/hakkinda_info_4" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İlçede yaklaşık olarak 12.000 adet büyükbaş, 80.000 adet küçükbaş ve 80.000 adet kanatlı,720 adet fenni arı kovanı bulunmaktadır. Bu hayvanlar özellikle et, süt ve bal  ihtiyaçlarının karşılanması ve pazarlanması amacı ile yetiştirilmektedir."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boğazlıyan canlı hayvan pazarı ilçenin ekonomisine önemli katkıda bulunmaktadır.  Damızlık, besicilik, yetiştiricilik ve kesimlik olmak üzere her alana hizmet verecek şekilde hayvan alım-satımları gerçekleştirilmektedir."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bitkisel üretim olarak; 80.505 hektarında hububat, 750 hektarında baklagil, 15.225 hektarında endüstri bitkileri, 200 hektarında bağcılık ,540 hektar yem bitkileri, 407 hektarında meyvecilik yapılmaktadır. Üretimi yapılan hububatlar Boğazlıyan Ticaret Borsası Tahıl Analiz Laboratuvarında analiz edilerek satışa çıkarılmaktadır. Boğazlıyan Ticaret Borsası 2005 yılında faaliyete geçmiştir. Kayseri yolunun 3.km´sinde 33.000 m2 alana sahiptir. 32 depo ve 32 yazıhanesi bulunmaktadır. Toplam 330 m2 hizmet binası,165m2 Satış salonu ve 1.250 m2´den oluşan bir borsa hizmet binası yerleşkesine sahiptir. "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

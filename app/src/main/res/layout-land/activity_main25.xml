@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity25">
+
+    <ScrollView
+        android:id="@+id/scrollView33"
+        android:layout_width="0dp"
+        android:layout_height="728dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gitmek için Tıklayınız" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Farklı noktalardan girişi olan ve yaklaşık 400 metreye 350 metre genişliğinde bir alanda, Özler beldesinin doğu yakasını oluşturan mahallelerin altındadır. Birçok oda ve koridorlardan oluşan yeraltı şehrine girilen ilk odanın sağ tarafından yaklaşık 1,5 metre yükseklikte   60 cm genişlikteki koridordan ikinci bir odaya geçilmekte ve bu odanın sağ ve sol tarafından yeni koridorlar  bulunmaktadır"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soldaki koridor küçük bir geçit şeklinde olup buradan ulaşılan tek bir mekân bulunmaktadır. Sağdaki koridordan birkaç metre ilerlendiğinde sağa ve sola yeni koridorlar açılmaktadır."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sağ taraf kapanmış olup sol tarafa devam edildiğinde uzun bir koridor ve bunun etrafında çeşitli mekânlar, bunlar içerisinde örülmüş duvarlar ve kapı taşları, devam eden uzun kavisli geçitler vardır.  "
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

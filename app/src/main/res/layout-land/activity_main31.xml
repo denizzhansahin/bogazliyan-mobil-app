@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity31">
+
+    <ScrollView
+        android:id="@+id/scrollView18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gitmek için Tıklayınız" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yapım tarihi 1550 olan hamam dikdörtgen planlı olup; güney cephesindeki kemerli kapısı önüne, sonradan ahşap giriş bölümü eklenmiştir. Hamam; soyunmalık, ılıklık, sıcaklık ve külhan bölümlerinden oluşmaktadır. Soyunmalık bölümünde sıralı kemerli kasnak üzerine kubbe yeralmaktadır. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kemerli bir geçişle ılıklık bölümüne girilir. Kubbesi kemerle taşınmaktadır ve kubbe üzerinde fil gözleri yer almaktadır.Sıcaklık kısmı yıldızvari planlıdır"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sıcaklık bölümü merkezi bir kubbenin etrafındaki beşik tonozlu altı bölümden oluşmaktadır. Ortada mermer göbektaşı ve duvar kenarlarında mermer kurnalar yer almaktadır. Kuzey bölümü sonradan taşla örülerek sauna oluşturulmuştur."
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
