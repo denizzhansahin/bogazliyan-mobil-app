@@ -1,8 +1,8 @@
 # bogazliyan-mobil-app
 Bu projemizin amacı yaşadığım Yozgat ili Boğazlıyan ilçesi ile ilgili turizm ve bölgesel iletişim, sosyalleşme ve günlük olarak fazlası ile kullanılan hizmtlerin bir arada olduğu bir Android Mobil uygulama geliştirme projesidir
-
+<center>
 ![350826094_1370723163718303_1531497623608448988_n](https://github.com/denizzhansahin/bogazliyan-mobil-app/assets/95483485/e02ee35f-d147-4fa2-833e-f4b3981fd692)
-
+</center>
 
 Projemiz için Mehmet Akınol'a teşekkür ederim :) LinkedIn : https://www.linkedin.com/in/mehmet-akinol-0725381a/
 
